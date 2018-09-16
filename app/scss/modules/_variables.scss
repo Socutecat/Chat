@@ -1,0 +1,36 @@
+/*colors*/
+
+:root{
+	--primary: #3498db;
+	--white: #fff;
+	--app-back: #f5f6f8;
+	--grey-100: #f6fafe;
+	--grey-300:#2775a9;
+	--grey-200:#8ea1b4;
+	--grey-400:#d6e3ec;
+	--grey-500:#edf0f2;
+	--dark: #16315c;
+	--blue: #3598db;
+	--sidebar-name:#34495e;
+	--green:#51dacf;
+
+
+
+
+	/*indents*/
+	--side-indent: 15px;
+
+	@media (min-width: 576px) {
+		--side-indent:53px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
