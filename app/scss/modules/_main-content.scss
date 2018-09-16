@@ -20,14 +20,17 @@
 }
 
 .chat{
-	flex-basis: 70%;
+	flex-basis: 67%;
+	padding-left:30px
 }
 
 .users-listing{
 	list-style: none;
 	.user{
 		@include d-flex ($align-items: center);
-		margin-bottom: 30px;
+		padding: 15px 0;
+
+		// margin-bottom: 30px;
 			// &:last-of-type{
 			// 	margin-bottom: 52px;
 			// }
@@ -36,6 +39,7 @@
 
 	.user-ava{
 		position: relative;
+		margin-right: 15px;
 		.count{
 			width: 20px;
 			height: 20px;
@@ -54,12 +58,13 @@
 	}
 	.user-name{
 		@include d-flex ($flex-d: column);
-		margin-left: 12px;
+
 		h3{
 			font-size: 16px;
 			font-weight: 700;
 			letter-spacing: 0em;
 			color: var(--sidebar-name);
+			margin-bottom: 3px;
 }
 	}
 }
@@ -93,4 +98,5 @@
 .time{
 	display: block;
 	white-space: nowrap;
+	margin-top: 3px;
 }
