@@ -1,6 +1,6 @@
 /*colors*/
 
-:root{
+body{
 	--primary: #3498db;
 	--white: #fff;
 	--app-back: #f5f6f8;
@@ -15,19 +15,26 @@
 	--blue: #3598db;
 	--sidebar-name:#34495e;
 	--green:#51dacf;
-
+	--toggle-box-color:#ccc;
 
 
 
 	/*indents*/
 	--side-indent: 15px;
 
+}
+
 	@media (min-width: 576px) {
+		body{
 		--side-indent:53px;
 	}
 }
 
-
+body.night-mode{
+	--app-back: #1f2738;
+	--primary:#99c2de;
+	--dark:#98c2de
+}
 
 
 

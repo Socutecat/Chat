@@ -21,8 +21,9 @@
 		&.sidebar-open{
 			transform: translateX(0);
 		}
-		@media(min-width: 768px){
+		@media (min-width: 768px){
 			position: static;
+			transform: translateX(0);
 		}
 
 		&-header{
@@ -50,7 +51,7 @@
 			padding: 26px 0;
 			margin: -10px;
 			> *{
-				padding: 10px;
+				padding: 11px;
 			}
 		}
 	.acc-name{
@@ -82,7 +83,7 @@
 		padding-top: 15px;
 		padding-right: 15px;
 		padding-bottom: 15px;
-		max-height: 528px;
+		max-height: 490px;
 		overflow: auto;
 		overflow-x: hidden;
 		border-top: 1px solid #ddebf4;
@@ -173,11 +174,13 @@
 			line-height: 40px;
 			border: none;
 			position: absolute;
-			transform: translateY(-50%);
+			transform: translateY(-50%) rotate(45deg);
 			top: 50%;
 			right: 15px;
 			cursor: pointer;
 			border-color: transparent;
+			box-shadow: 0 0 15px 3px rgba(53,152,219, 0.3);
+
 		}
 		.input-message{
 			border-radius: 4px;
